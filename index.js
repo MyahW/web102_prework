@@ -39,8 +39,8 @@ function addGamesToPage(games) {
         // add the class game-card to the list
         newDiv.classList.add("game-card");
 
-        // set the inner HTML using a template literal to display some info 
-        // about each game::
+        // set the inner HTML using a template literal to display some 
+        // info about each game::
         newDiv.innerHTML = `
         <div class="info-item">
             <h2>${item.name}</h2>
@@ -54,9 +54,9 @@ function addGamesToPage(games) {
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
 
+        // append the game to the games-container
         gamesContainer.appendChild(newDiv);
-    }// append the game to the games-container
-
+    }
 }
 
 // call the function we just defined using the correct variable
@@ -161,12 +161,28 @@ allBtn.addEventListener("click", showAllGames);
 const descriptionContainer = document.getElementById("description-container");
 
 // use filter or reduce to count the number of unfunded games
+const numOfUnfundedGames = GAMES_JSON.filter ((game) => {
+        return game.pledged < game.goal;
+    })
 
+// create a string that explains the number of unfunded games using the 
+// ternary operator
 
-// create a string that explains the number of unfunded games using the ternary operator
+const displayUnfunded = `A total of $${totalAmountRaised.toLocaleString('en-US')} 
+has been raised for ${totalGames} games. Currently, ${numOfUnfundedGames.length}
+${numOfUnfundedGames.length === 1 ? "game remains" : "games remain"} unfunded. We need 
+your help to fund these amazing games!`;
 
+// create a new DOM element containing the template string and append it 
+// to the description container
+const newDescr = document.createElement("div");
 
-// create a new DOM element containing the template string and append it to the description container
+ newDescr.innerHTML = `
+    <div>
+        <p>${displayUnfunded}</p>
+    </div>`;
+
+descriptionContainer.append(newDescr);
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
@@ -181,7 +197,24 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
+const [gameOne, gameTwo] = sortedGames;
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+const newGameOneElmt = document.createElement("div");
+
+ newGameOneElmt.innerHTML = `
+    <div>
+        <p>${gameOne.name}</p>
+    </div>`;
+
+firstGameContainer.append(newGameOneElmt);
 
 // do the same for the runner up item
+const newGameTwoElmt = document.createElement("div");
+
+ newGameTwoElmt.innerHTML = `
+    <div>
+        <p>${gameTwo.name}</p>
+    </div>`;
+
+secondGameContainer.append(newGameTwoElmt);

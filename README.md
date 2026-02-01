@@ -1,4 +1,4 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Crowdfunding the Prework Experience*
 
 Submitted by: **Myah Webb**
 
@@ -10,17 +10,17 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
+* [x]] The introduction section explains the background of the company and how many games remain unfunded.
 
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
 
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
 
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -38,14 +38,18 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
--First off, I realized that I needed to do a refresher of my front-end 
+
+- First off, I realized that I needed to do a refresher of my front-end 
  developer tech stack including html, css, and javascript through the use of doing practice projects from Youtube videos.
 
--I would say that challenge 3, was the hardest for my due to having to remember the functionality of og template literals.
+- I would say that challenge 3, was the hardest section for me due to realizing that I needed to take a deeper dive into how to best utilize template literals and combine familar concepts together to make a dynamic list based on a JSON string literal of data.
 
--Each challenge utilize familiar concepts, though it highlighted useful ways of going about displaying JSON data on a webpage is various ways. 
+- Each challenge utilize familiar concepts, though it highlighted useful ways of going about displaying JSON data on a webpage is various ways. For me destructors was a newer concept but I I remeber using spreads during my intership project.
 
-- Overall, the challenges made me appreciate the versatlity of jvascript and the the background information in each challenge especially, helped to jump start me finishing the task. There was times, I would come across the first step and feel at a lost of how to go about completing it. through simply, taking a step back and research what I did know, I discovered the questions I should have been asking myself toward find the solution.
+- During challenge 5, I found myself getting stuck on how to properly add the ternary logic within a template literal but, in retrospect, it turned out to be a simple mistake.
+
+- Overall, the challenges made me appreciate the versatlity of jvascript and the the background information in each challenge especially, helped to jump start me finishing the task. 
+    - There was times, I would come across the first step and feel at a lost of how to go about completing it. through simply, taking a step back and research what I did know, I discovered the questions I should have been asking myself toward find the solution.
 
 ## License
 
