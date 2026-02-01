@@ -1,8 +1,8 @@
 # WEB102 Prework - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Myah Webb**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **X** hours spent in total
 
@@ -11,8 +11,11 @@ Time spent: **X** hours spent in total
 The following **required** functionality is completed:
 
 * [ ] The introduction section explains the background of the company and how many games remain unfunded.
+
 * [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+
 * [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+
 * [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
@@ -35,10 +38,18 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+-First off, I realized that I needed to do a refresher of my front-end 
+ developer tech stack including html, css, and javascript through the use of doing practice projects from Youtube videos.
+
+-I would say that challenge 3, was the hardest for my due to having to remember the functionality of og template literals.
+
+-Each challenge utilize familiar concepts, though it highlighted useful ways of going about displaying JSON data on a webpage is various ways. 
+
+- Overall, the challenges made me appreciate the versatlity of jvascript and the the background information in each challenge especially, helped to jump start me finishing the task. There was times, I would come across the first step and feel at a lost of how to go about completing it. through simply, taking a step back and research what I did know, I discovered the questions I should have been asking myself toward find the solution.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2026] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
