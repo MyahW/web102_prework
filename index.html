@@ -9,10 +9,18 @@
   <body>
     <!-- header row with logo -->
     <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
-        <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <div class="logo-name">
+            <img id="tentacles" src="assets/tentacles.png">
+            <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        </div>
+        
+        <button style="margin-right: 40px;">
+            <a href="#game-list">Our Games</a>
+        </button>
     </div>
+    
 
+    <main class="content">
     <!-- background info about company -->
     <h2>Welcome to Sea Monster!</h2>
     <div id="description-container">
@@ -48,7 +56,7 @@
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
+    <h2 id="game-list">Our Games</h2>
     <p>Check out each of our games below!</p>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
@@ -60,5 +68,20 @@
     </div>
 
     <script type="module" src="index.js"></script>
-  </body>
+        
+        </main>
+        <footer id="footer-container" style="gap:0.5rem; line-height:2rem; display:flex; flex-direction:column;">
+            <div id="" style="display: flex; justify-content: center;">
+                Sea Monster Crowdfunding © 2026
+            </div>
+            <div id="" style="display: flex; justify-content: center; gap:1rem;">
+                <span id="underline-link">Trust & Safety</span>
+                <span id="underline-link">Terms of Use</span>
+                <span id="underline-link">Privacy Policy</span>
+                <span id="underline-link">Cookie Policy</span>
+                <span id="underline-link">Cookie Preferences</span>
+                <span id="underline-link">Accessibility Statement</span>
+            </div>
+        </footer>
+    </body>
 </html>
